@@ -1,0 +1,207 @@
+@media screen and (min-width: 481px){
+    h1 {
+         padding: 0 16px;
+     }
+ }
+@font-face{
+ font-family: 'DigoryDoodlesPS';
+ src: url('fontsfolder/Digory_Doodles_PS-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+@media print{
+ main { 
+ margin: 0px 0px 30px 0px;
+  color: #973dbc;
+ background-color: #ababab;
+ padding-bottom: 30px;
+  }
+footer {
+ position: none;
+ left: 0em;
+ bottom: 0em;
+ width: 80%;
+ background-color: #237def;
+ margin: 0% 10%;
+ }
+h1, h2 {
+ font-family: serif, monospace;
+}
+
+h1 { 
+  font-family: 'DigoryDoodlesPS';
+  font-weight: normal;
+  padding-top: 5em;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px #ab475c;
+  text-transform: uppercase;
+  text-align: center;
+  color: #a4fe89;
+  font-size: 1cm;
+     }
+h2 {
+  font-family: fantasy;
+ text-align: left;
+ color: #fe0000;
+ font-size: 2em;
+ margin-bottom: 0px;
+ }
+p {
+ text-align: justify;
+ color: #dd24ab;
+}
+h2 + p {
+ text-indent: 50px;
+ padding: 0% 2%;
+ margin-top: 0px;
+      }
+dt {
+ color: #123456;
+ }
+.quote {
+  text-align: left;
+  color: #000000;
+     }
+ body {
+     background-color: #ddae25; 
+     margin: 2% 5%;
+     font-size: 1.5em;
+     }
+ .foot {
+       text-align: center;
+      font-size: 0.75em;
+       }
+a:link {
+      color: #a8ef66;
+     }
+a:visited {
+     color: #0128cd;
+         }
+a:hover {
+      color: #00bc00;
+      text-decoration: overline;
+      }
+a:active {
+     color: #00bcbc;
+     }
+dl > dd {
+ color: #fcfcfc;
+}
+
+}
+
+html * {
+         font-family: sans-serif;
+         font-size: 1em;
+         line-height: 175%;
+         width: 95%;
+         margin: auto;
+         background-color: #2acd89;
+         padding: 2% 0%;
+    }
+header {
+background-size: 100px 200px;
+font-family: monospace;
+padding-top: 0em;
+padding-bottom: 0em;
+ margin-top: 1px; 
+ margin-bottom: 3px;
+background-image: url(Slide1.JPG);
+background-repeat: no-repeat;
+background-position: top;
+display: block;  
+    }
+table{
+    width: 75%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-width: 1px;
+    padding: 30px;
+}
+table, td {   
+    text-align: center;
+    color: #000000;
+}
+main { 
+ margin: 0em 1em 0em 1.5em;
+ display: block;
+ color: #973dbc;
+ background-color: #ababab;
+ padding-bottom: 30px;
+  }
+footer {
+ display: block;
+ position: fixed;
+ left: 0em;
+ bottom: 0em;
+ width: 100%;
+ background-color: #237def;
+ margin: 0% 0%;
+ }
+h1, h2 {
+ font-family: serif, monospace;
+}
+h1 { 
+  font-family: 'DigoryDoodlesPS';
+  font-weight: normal;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-top: 1px;
+  letter-spacing: 3px;
+  text-shadow: 2px 5px #ab475c;
+  text-transform: uppercase;
+  text-align: center;
+  color: #a4fe89;
+  font-size: 1cm;
+  }
+h2 {
+ font-family: fantasy;
+ text-align: left;
+ color: #fe0000;
+ font-size: 2em;
+ margin-bottom: 0px;
+ }
+p {
+ text-align: justify;
+ color: #dd24ab;
+}
+h2 + p {
+ text-indent: 50px;
+ padding: 0% 2%;
+ margin-top: 0px;
+  }
+dt {
+ color: #123456;
+ }
+.quote {
+  text-align: left;
+  color: #000000;
+     }
+ body {
+     background-color: #ddae25; 
+     margin: 2% 2%;
+     font-size: 1.5em;
+     }
+ .foot {
+       text-align: center;
+      font-size: 0.75em;
+       }
+a:link {
+      color: #a8ef66;
+     }
+a:visited {
+     color: #0128cd;
+         }
+a:hover {
+      color: #00bc00;
+      text-decoration: overline;
+      }
+a:active {
+     color: #00bcbc;
+     }
+dl > dd {
+ color: #fcfcfc;
+}
